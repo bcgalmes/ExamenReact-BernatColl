@@ -3,14 +3,14 @@
 }
 
 .span:hover{
-    color: cornflowerblue;
+    color: rgb(40, 165, 47);
 }
 
 .listado{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
-    margin: 30px;
+    grid-gap: 15px;
+    margin: 35px;
 }
 
 .listado section{
@@ -27,5 +27,5 @@
 .botones{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 5px;
+    column-gap: 10px;
 }
